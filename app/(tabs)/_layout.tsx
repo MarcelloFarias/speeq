@@ -39,6 +39,18 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="voice-over"
+        options={{
+          title: "Narrador",
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon
+              name={focused ? "mic-sharp" : "mic-outline"}
+              color={color}
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
