@@ -61,19 +61,24 @@ function Onboarding() {
 
   const defaultSounds: ISound[] = [
     {
-      iconName: "caretright",
+      iconName: "like1",
       iconFamily: "AntDesign",
-      soundName: "Andar para frente",
+      soundName: "Sim",
     },
     {
-      iconName: "stepbackward",
+      iconName: "dislike1",
       iconFamily: "AntDesign",
-      soundName: "Andar para trás",
+      soundName: "Não",
     },
     {
-      iconName: "downcircle",
-      iconFamily: "AntDesign",
-      soundName: "para baixo",
+      iconName: "hand-holding",
+      iconFamily: "FontAwesome6",
+      soundName: "Por Favor",
+    },
+    {
+      iconName: "handshake",
+      iconFamily: "FontAwesome6",
+      soundName: "Obrigado",
     },
   ];
 

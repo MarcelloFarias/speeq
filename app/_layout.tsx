@@ -31,7 +31,13 @@ export default function RootLayout() {
 
   return (
     <Provider store={store}>
-      <Stack>
+      <Stack
+        screenOptions={{
+          headerBackButtonMenuEnabled: false,
+          headerBackVisible: false,
+          headerShown: false,
+        }}
+      >
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="+not-found" />
       </Stack>
