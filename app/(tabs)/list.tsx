@@ -1,7 +1,9 @@
-import { SafeAreaView, Pressable, Text, FlatList } from "react-native";
+import { SafeAreaView, View, Image, Text, FlatList } from "react-native";
 import { selectSounds } from "@/src/state-management/slices/sounds-slice";
 import { useSelector } from "react-redux";
 import SoundListItem from "@/components/SoundListItem";
+
+const emptyListImage = require("@/assets/images/empty-list.png");
 
 export default function ListScreen() {
   const sounds = useSelector(selectSounds);
@@ -28,6 +30,22 @@ export default function ListScreen() {
         keyExtractor={(_, index) => `sound-${index}`}
         data={sounds}
         renderItem={({ item }: any) => <SoundListItem sound={item} />}
+        ListEmptyComponent={() => (
+          <View
+            style={{
+              width: "100%",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Image
+              style={{ maxWidth: 200, maxHeight: 200, alignSelf: "center" }}
+              source={emptyListImage}
+            />
+            <Text>Nenhum som encontrado</Text>
+          </View>
+        )}
       />
     </SafeAreaView>
   );

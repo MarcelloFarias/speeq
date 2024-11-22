@@ -1,5 +1,5 @@
 import { theme } from "@/theme";
-import { SafeAreaView, Text, FlatList, View } from "react-native";
+import { SafeAreaView, Text, FlatList, View, Image } from "react-native";
 import { useWindowDimensions } from "react-native";
 import SoundItem from "@/components/SoundItem";
 import { router } from "expo-router";
@@ -10,6 +10,8 @@ import {
   selectSounds,
   setSounds,
 } from "@/src/state-management/slices/sounds-slice";
+
+const emptyListImage = require("@/assets/images/empty-list.png");
 
 export default function HomeScreen() {
   const { width } = useWindowDimensions();
@@ -75,6 +77,22 @@ export default function HomeScreen() {
           renderItem={({ item }: any) => <SoundItem sound={item} />}
           numColumns={2}
           showsVerticalScrollIndicator={false}
+          ListEmptyComponent={() => (
+            <View
+              style={{
+                width: "100%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <Image
+                style={{ maxWidth: 200, maxHeight: 200, alignSelf: "center" }}
+                source={emptyListImage}
+              />
+              <Text>Nenhum som encontrado</Text>
+            </View>
+          )}
         />
       </View>
     </SafeAreaView>
