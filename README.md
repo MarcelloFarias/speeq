@@ -5,14 +5,14 @@ Um app de acessibilidade que permite otimizar a comunicação para qualquer pess
 ## Telas
 
 ### IOS
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 11_6df5f2bb](https://github.com/user-attachments/assets/e548f39a-ab5e-4d71-b885-fcdcd7d32c7e)
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 10_0ece9a63](https://github.com/user-attachments/assets/57a1e280-7789-4990-b739-4743e9481961)
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 10_9e42dd46](https://github.com/user-attachments/assets/8b82307a-b0cc-429b-a2b1-759c021c8548)
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 09_b7807a32](https://github.com/user-attachments/assets/6d442e0a-8f0a-4fc4-98e8-9e5afcfc4a77)
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 09_0222e5b1](https://github.com/user-attachments/assets/b3b1ca50-73e7-487e-a492-4fc227f3e70e)
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 09_84be665b](https://github.com/user-attachments/assets/d06da158-70d7-4bf5-b2bd-3bdf2efc2472)
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 08_6e75eaa6](https://github.com/user-attachments/assets/1eb558e8-7bbb-431f-9ec4-78055b91d61c)
-![Imagem do WhatsApp de 2024-11-21 à(s) 21 05 07_ba3dfc75](https://github.com/user-attachments/assets/afb50b0d-e899-4ab2-9bb9-55aede6f4445)
+<img src="https://github.com/user-attachments/assets/e548f39a-ab5e-4d71-b885-fcdcd7d32c7e" width="200" />
+<img src="https://github.com/user-attachments/assets/57a1e280-7789-4990-b739-4743e9481961" width="200" />
+<img src="https://github.com/user-attachments/assets/8b82307a-b0cc-429b-a2b1-759c021c8548" width="200" />
+<img src="https://github.com/user-attachments/assets/6d442e0a-8f0a-4fc4-98e8-9e5afcfc4a77" width="200" />
+<img src="https://github.com/user-attachments/assets/b3b1ca50-73e7-487e-a492-4fc227f3e70e" width="200" />
+<img src="https://github.com/user-attachments/assets/d06da158-70d7-4bf5-b2bd-3bdf2efc2472" width="200" />
+<img src="https://github.com/user-attachments/assets/1eb558e8-7bbb-431f-9ec4-78055b91d61c" width="200" />
+<img src="https://github.com/user-attachments/assets/afb50b0d-e899-4ab2-9bb9-55aede6f4445" width="200" />
 
 ### Android
 ![Screenshot_20241121-160223_Expo Go](https://github.com/user-attachments/assets/7aa62b00-5332-4bc8-b4fc-a220d5ac59e4)
